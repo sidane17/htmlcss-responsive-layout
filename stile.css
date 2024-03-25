@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common */
+.boxed{
+    margin: 1%;
+}
+/*************** Header ********************/
+header{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(65, 118, 250);
+    color: rgb(0, 0, 0);
+}
+
+.h_container{
+    display: flex;
+    border-style: dashed;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo{
+    border-style: dashed;
+    width: 30%;
+    height: 100%;
+}
+
+.menu{
+    border-style: dashed;
+    height: 100%;
+    width: 20%;
+}
+/*********** main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blocco1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.card_b1{
+    border-radius: 10px;
+
+    background-color: darkcyan;
+    border-style: dashed;
+    height: 25rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12%;
+}
+.blocco_card{
+    border-style: dashed;
+    margin: 5%;
+    width: 90%;
+    height: 50%;
+    background-color: aliceblue;
+}
+.card_b2{
+    border-radius: 10px;
+    background-color: darkcyan;
+    border-style: dashed;
+    height: 18rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+}
