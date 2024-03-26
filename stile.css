@@ -16,7 +16,7 @@
     border-radius: 50%;
     background-color:  rgb(151, 146, 228);
 }
-.boxed{
+.container{
     text-align: center;
     width: 80%;
 }
@@ -312,12 +312,12 @@ background-color:rgb(151, 146, 228) ;
     line-height: 1.5;
 }
 .button_5{
-    margin-top: 3%;
+    margin-top: 3rem;
     margin-bottom: 10%;
     background-color: rgb(151, 146, 228);
-    border-radius: 10px;
+    border-radius: 20px;
     width: 60%;
-    padding: 1%;
+    padding: 1rem;
     border: none;
 }
 .container a{
@@ -326,17 +326,46 @@ background-color:rgb(151, 146, 228) ;
 }
 
 /* blocco 6 */
-.blocco6{
+.blocco_6{
     display: flex;
     align-items: center;
     background-color: rgb(151, 146, 228);
     width: 100%;
-    height: 25rem;
+    height: fit-content;
     color:white;
     text-align: center;
 
 }
+.blocco_6 span{
+    margin-top: 2rem;
+    opacity: 0.5;
+}
+.blocco_6 h1{
+    margin: 2rem;
+    color: rgb(253, 193, 95);
+    font-size: 4rem;
+}
+.blocco_6 h2{
+    margin: 1rem;
+    color: aliceblue;
+}
+.blocco_6 p{
+    line-height: 2rem;
+}
+.blocco_6 button{
+    width: 40%;
+    border: none;
+    background-color: white;
+    color: rgb(151, 146, 228);
+    padding: 1rem;
+    border-radius: 20px;
+    margin-bottom:1rem;
+}
+
+
 /* footer */
+
+
 .blocco7{
     color: white;
     display: flex;
@@ -344,6 +373,16 @@ background-color:rgb(151, 146, 228) ;
     align-items: center;
     height: 15rem;
     width: 100%;
-    background-color: black;
+    background-color: rgb(62, 62, 62);
     text-align: center;
+}
+.container7{
+    width: 90%;
+}
+.blocco7 p{
+    margin-bottom: 2rem;
+}
+.blocco7 a{
+    color:  rgb(151, 146, 228);
+    text-decoration: underline;
 }
